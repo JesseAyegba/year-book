@@ -1,0 +1,63 @@
+.landing {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/covenant.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.landing__headers {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 70px;
+  color: white;
+}
+.landing__header1 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+.landing__header2 {
+  font-size: 40px;
+}
+.landing__header3 {
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 5px 0;
+}
+.landing__header4 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.landing__form {
+  padding: 40px 0;
+  text-align: center;
+}
+.landing__input {
+  width: 400px;
+  height: 70px;
+  margin: 0 5px;
+  border-radius: 4px;
+  font-size: 20px;
+  outline: none;
+  padding: 0 20px;
+}
+.landing__btn {
+  height: 70px;
+  padding: 0 20px;
+  margin: 0 5px;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(201, 199, 199);
+}
+.landing__btn:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.landing__info {
+  text-align: center;
+  color: white;
+}
